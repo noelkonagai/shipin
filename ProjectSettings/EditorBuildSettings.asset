@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/VirtualButtons.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/RayCasting.unity
+    guid: 3e4a5b639f848410cb1972a81df7f5de
+  - enabled: 1
+    path: Assets/RaycastingUI.unity
+    guid: 4ed19fff2f6154946b598de9de0a7f74
+  m_configObjects: {}
