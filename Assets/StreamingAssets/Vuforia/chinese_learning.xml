@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Vuforia_target" size="1.000000 0.532937"/>
+        <ImageTarget name="vumark" size="1.000000 0.484150"/>
+        <ImageTarget name="raycasting_test" size="1.000000 1.070359"/>
+        <ImageTarget name="training_day_badge" size="1.000000 1.478916"/>
+        <ImageTarget name="listerine" size="1.000000 0.750760"/>
+        <ImageTarget name="dalidali" size="1.000000 1.772955"/>
+        <ImageTarget name="darlie.Front" size="4.900000 21.220573"/>
+        <ImageTarget name="darlie.Bottom" size="4.900000 3.700790"/>
+        <ImageTarget name="darlie.Left" size="3.700000 21.195532"/>
+        <ImageTarget name="darlie.Right" size="3.700000 21.197916"/>
+        <ImageTarget name="darlie.Top" size="4.900000 3.700790"/>
+        <ImageTarget name="darlie.Back" size="4.900000 21.199217"/>
+        <MultiTarget name="darlie">
+            <Part name="darlie.Left" translation="-2.450000047683716 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="darlie.Right" translation="2.450000047683716 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="darlie.Front" translation="0 0 1.850000023841858" rotation="AD: 1 0 0 0"/>
+            <Part name="darlie.Back" translation="0 0 -1.850000023841858" rotation="AD: 0 1 0 180"/>
+            <Part name="darlie.Top" translation="0 10.600000381469727 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="darlie.Bottom" translation="0 -10.600000381469727 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
